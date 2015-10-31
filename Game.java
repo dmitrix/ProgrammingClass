@@ -51,28 +51,11 @@ public class Game extends Applet implements Runnable
 	
 	
 	
-	private Image dbImage;
-	private Graphics dbg;
+	
 	
 	public void update(Graphics g)
 	{
-		// init buffer
-		if(dbImage == null)
-		{
-			dbImage = createImage (this.getSize().width, this.getSize().height);
-			dbg = dbImage.getGraphics();
-		}
-		
-		// clear screen in background
-		dbg.setColor(getBackground());
-		dbg.fillRect(0, 0, this.getSize().width, this.getSize().height);
-		
-		// draw elements in background
-		dbg.setColor(getForeground());
-		paint(dbg);
-		
-		// draw image on the screen
-		g.drawImage(dbImage, 0, 0, this);
+		new DoubleBuffer(g, this);
 	}
 	
 	// Threads
