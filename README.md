@@ -18,3 +18,9 @@ I have a special affinity for programming. Before I started programming I had no
 
 In addition, CNC machines run off code. While G-Code may be different than Java, my experience in programming has definately helped.
 
+## Isn't this called ProgrammingClass? Where are your homework assignments?
+
+Sorry man. I'm not going to post my homework assignments. At least not right now. Maybe later.
+
+
+![XKCD GIT](http://xkcd.com/1597/)
