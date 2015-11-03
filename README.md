@@ -22,5 +22,9 @@ In addition, CNC machines run off code. While G-Code may be different than Java,
 
 Sorry man. I'm not going to post my homework assignments. At least not right now. Maybe later.
 
+## How'd you get so good at Git?
 
-![XKCD GIT](http://xkcd.com/1597/)
+This XKCD comic describes exactly how I use / learn Git.
+
+
+![XKCD GIT](http://imgs.xkcd.com/comics/git.png)
