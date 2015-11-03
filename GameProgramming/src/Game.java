@@ -9,17 +9,26 @@ public class Game implements Runnable {
 	
 	// Game Programming - Episode 2 - Threads
 	private Thread thread;
+	private boolean running  = false;
 	
 	public synchronized void start() {
-		thread = new Thread(this);
+		running = true;
+		thread = new Thread(this, "Display");
 		thread.start();
 	}
 	
 	public synchronized void stop(){
+		running = false;
 		try {
 			thread.join();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
+		}
+	}
+	
+	public void run() {
+		while(running){
+			
 		}
 	}
 }
