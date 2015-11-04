@@ -1,15 +1,20 @@
+import java.awt.Canvas;
+import javax.swing.JFrame;
 
-
-public class Game implements Runnable {
+public class Game extends Canvas implements Runnable {
 	
-	// Game Programming - Episode 1 - Resolution
 	public static int width = 300;
 	public static int height = width / 16 * 9;
 	public static int scale = 3;
 	
-	// Game Programming - Episode 2 - Threads
 	private Thread thread;
+	private JFrame frame;
 	private boolean running  = false;
+	
+	// constructor
+	public Game() {
+		
+	}
 	
 	public synchronized void start() {
 		running = true;
@@ -31,4 +36,6 @@ public class Game implements Runnable {
 			
 		}
 	}
+	
+	
 }
