@@ -39,7 +39,21 @@ public class Game extends Canvas implements Runnable {
 	
 	public void run() {
 		while(running){
-			
+			update();
+			render();
+		}
+	}
+	
+	public void update() {
+	
+	}
+	
+	public void render() {
+		BufferStrategy bs = getBufferStrategy();
+		if (bs == null)
+		{
+			createBufferStrategy(3); // triple buffering
+			return; 
 		}
 	}
 	
