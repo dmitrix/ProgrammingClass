@@ -1,6 +1,6 @@
-import java.awt.Canvas;
+import java.awt.*;
+import java.awt.image.*;	
 import javax.swing.JFrame;
-import java.awt.Dimension;
 
 public class Game extends Canvas implements Runnable {
 	
@@ -55,6 +55,19 @@ public class Game extends Canvas implements Runnable {
 			createBufferStrategy(3); // triple buffering
 			return; 
 		}
+		
+		Graphics g = bs.getDrawGraphics();
+		
+		// All graphics go here
+		g.setColor(Color.BLACK);
+		g.fillRect(0, 0, getWidth(), getHeight());
+		
+		
+		
+		// End graphics
+		
+		g.dispose(); // gets rid of current graphics
+		bs.show();
 	}
 	
 	public static void main(String[] args){
