@@ -1,3 +1,14 @@
+/*
+	Game.java
+	
+	Marcel Baarsch
+	marcelbaarsch@gmail.com
+	
+	Code from TheChernoProject Game Programming series on YouTube.
+
+*/
+
+
 import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Dimension;

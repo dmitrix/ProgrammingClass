@@ -1,3 +1,13 @@
+/*
+	Screen.java
+	
+	Marcel Baarsch
+	marcelbaarsch@gmail.com
+	
+	Code from TheChernoProject Game Programming series on YouTube.
+
+*/
+
 public class Screen{
 	
 	private int width, height;
