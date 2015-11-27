@@ -10,7 +10,7 @@ I know, I hate Java too. I'm taking an actual programming class in college that'
 
 ## Why are you trying to maintain a streak on GitHub?
 
-Programming is something I have always studied on and off. Meaning, in the past I would study programming for months and then stop for months. When I undergo long periods of time when I don't program at all I feel like I loose a lot of what I have learned and have to start all over again. It's easy for me to catch up to where I was but it's a major impedance to progress. So my hope is that maintaining a streak on GitHub will help me to program often and to constantly learn and improve. 
+Programming is something I have always studied on and off. Meaning, in the past I would study programming for months and then stop for months. When I undergo long periods of time when I don't program at all I feel like I loose a lot of what I have learned and have to start all over again. It's easy for me to catch up to where I was but it's a major impedance to progress. So my hope is that maintaining a streak on GitHub will help me to program often and to constantly learn and improve.
 
 ## Why don't you just give up on programming? Why don't you just focus on something else like machining?
 
@@ -22,10 +22,12 @@ In addition, CNC machines run off code. While G-Code may be different than Java,
 
 Sorry man. I'm not going to post my homework assignments. At least not right now. Maybe later.
 
+EDIT: Okay, maybe... maybe there are assignments on here. Shh, don't tell anyone. Please
+
 ## How'd you get so good at Git?
 
 This XKCD comic describes exactly how I use / learn Git.
 
 
 ![XKCD GIT](http://imgs.xkcd.com/comics/git.png)
-# PhaserGames 
+# PhaserGames
