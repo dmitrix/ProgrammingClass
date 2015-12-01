@@ -15,6 +15,9 @@
 */
 
 // First I Am going to run someone else's example.
+// Woo! Now I am going to annotate it so I fully understand.
+
+// I'm so ashamed. .___.
 
 import java.io.*;
 import java.util.Scanner; // This is a start.
@@ -23,9 +26,9 @@ public class ScoreReader
 {
   public static void main(String args[]) throws IOException{
 	try {
-		Scanner input = new Scanner(System.in);
-		System.out.print("Enter the file name with extention : ");
-		File file = new File(input.nextLine());
+		Scanner input = new Scanner(System.in); // create scanner
+		System.out.print("Enter the file name with extention : "); // for getting file name
+		File file = new File(input.nextLine()); 
 	
 		input = new Scanner(file);
 	
