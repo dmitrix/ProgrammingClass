@@ -1,0 +1,5 @@
+Title: Exam 1
+Highest Score: 100.0
+Lowest Score: 50.77
+Average Score: 76.54
+Number of Scores Read: 60
