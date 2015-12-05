@@ -6,6 +6,18 @@
 
   write your  classes with "stub" methods for testing that
    match your problem description and user stories from Prog. 3
+
+
+  ----------------------------------------
+  |                                      |
+  |                                      |
+  |      ---------------------------     |
+  |      |        Question         |     |
+  |      ---------------------------     |
+  |                                      |
+  |            |Reveal Answer|           |
+  |                                      |
+  ----------------------------------------
 */
 
 import javax.swing.*;
