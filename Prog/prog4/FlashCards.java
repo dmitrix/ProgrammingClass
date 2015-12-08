@@ -6,7 +6,7 @@
 
   write your  classes with "stub" methods for testing that
    match your problem description and user stories from Prog. 3
-<<<<<<< HEAD
+
 
 
   ----------------------------------------
@@ -16,7 +16,7 @@
   |      |        Question         |     |
   |      ---------------------------     |
   |                                      |
-  |            |Reveal Answer|           |
+  |     |prev| |Reveal Answer| |next|    |
   |                                      |
   ----------------------------------------
 */
@@ -35,7 +35,7 @@ public class FlashCards extends JFrame
   private JLabel questionL, emptyL;
 
   // Buttons
-  private JButton prevB, nextB;
+  private JButton showAnswerB, prevB, nextB;
 
   public FlashCards()
   {
@@ -49,9 +49,8 @@ public class FlashCards extends JFrame
 
 
     // create buttons
-    prevB = new JButton("Prev");
-
-    nextB = new JButton("Next");
+    showAnswerB = new JButton("Prev");
+    prevB = new JButton(); // (( _ _ ))..zzZZ
 
 
     // Container Stuff
@@ -68,9 +67,8 @@ public class FlashCards extends JFrame
     JPanel p1 = new JPanel(new FlowLayout(FlowLayout.LEADING));
     JPanel p2 = new JPanel(new GridLayout(1,3));
 
-    p2.add(prevB);
+    //p2.add(prevB);
     p2.add(questionL);
-    p2.add(nextB);
 
     p1.add(p2);
 
