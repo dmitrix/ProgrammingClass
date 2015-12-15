@@ -22,47 +22,14 @@ import java.text.DecimalFormat;
 public class ConsoleFlashCards
 {
 
-  public static void main(String[] args) throws IOException{
-	   try
-     {
+  public ConsoleFlashCards(){
+    System.out.println("helloworld");
+  }
 
-       File file = new File("Cards.json");
-       Scanner input = new Scanner(file);
+  public static void main(String[] args){
+	   ConsoleFlashCards cards = new ConsoleFlashCards();
 
-       // parse file
-       int linesTotal = 0;
-       while (input.hasNextLine())
-       {
-         linesTotal++;
-         input.nextLine();
-       }
-       input.close();
 
-       String[] questions = new String[linesTotal/2];
-
-       input = new Scanner(file);
-       for (int i = 0; i < linesTotal; i+=2){
-           questions[i/2] = input.nextLine();
-           System.out.println("Question:" + questions[i/2]);
-           input.nextLine();
-       }
-       input.close();
-
-       String[] answers = new String[linesTotal/2];
-
-       input = new Scanner(file);
-       for (int i = 1; i < linesTotal; i+=2){
-           answers[i/2] = input.nextLine();
-           System.out.println("Answer:" + answers[i/2]);
-           input.nextLine();
-       }
-       input.close();
-
-     }
-     catch (Exception ex)
-     {
-       ex.printStackTrace();
-     }
 
    }
 
