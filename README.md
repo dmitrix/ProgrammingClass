@@ -1,3 +1,11 @@
+# Spring 2016
+
+The Spring 2016 semester begins on January 25th. That means a new set of classes. This semester I signed up for 3 computer science classes. I will be taking intro to Computer Science, Programming II and Mobile Application development. I am very excited to be taking classes that focus more on things I actually care about, unlike learning about diseases in health class. Anyways, I have somewhat reorganized the structure of this repo in anticipation of the spring semester.
+
+
+
+
+
 # ProgrammingClass FAQ
 
 ## What is this all about?
